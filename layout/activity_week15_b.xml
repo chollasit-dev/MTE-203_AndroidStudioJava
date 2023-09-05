@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".week15B">
+
+    <Button
+        android:id="@+id/week15D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="325dp"
+        android:text="Week15D" />
+
+    <EditText
+        android:id="@+id/score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="180dp"
+        android:ems="10"
+        android:hint="Score"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/RSscore"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="105dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/week15C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="325dp"
+        android:text="Week15C" />
+
+    <Button
+        android:id="@+id/save1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="162.5dp"
+        android:layout_y="255dp"
+        android:text="Save" />
+
+</AbsoluteLayout>

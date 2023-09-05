@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week14B">
+
+    <Button
+        android:id="@+id/openMap"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="82.5dp"
+        android:layout_y="525dp"
+        android:text="Map" />
+
+    <Button
+        android:id="@+id/open14c"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_x="82.5dp"
+        android:layout_y="325dp"
+        android:text="Open Week14C" />
+
+    <Button
+        android:id="@+id/openAddress"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_x="82.5dp"
+        android:layout_y="425dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/fullName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="125dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/gpa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="175dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="GPA" />
+</AbsoluteLayout>

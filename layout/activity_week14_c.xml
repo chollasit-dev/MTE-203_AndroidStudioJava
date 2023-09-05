@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66E91E63"
+    tools:context=".Week14C">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132.5dp"
+        android:layout_y="50dp"
+        android:text="Week14C"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/RS14C"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="150dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+</AbsoluteLayout>
